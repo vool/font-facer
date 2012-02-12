@@ -11,7 +11,7 @@ __email__ = "keith@vool.ie"
 defaultSearchPath = "."
 
 # set the name of the demo file
-demofilename = "demo.html"
+demofilename = "font-facer.html"
 
 import os.path
 import sys
