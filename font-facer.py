@@ -20,14 +20,14 @@ print("=============================================================")
 if (len(sys.argv) > 1):
     if os.path.isdir(sys.argv[1]):
         print("Setting search path as: "+ sys.argv[1])
-        searchdir = sys.argv[1]
+        searchdir = os.path.abspath(sys.argv[1])
     else:
         print("ERROR - The path: [ "+sys.argv[1]+" ] does not exist, falling back to default path: "+ defaultSearchPath)
-        searchdir = defaultSearchPath
+        searchdir = os.path.abspath(defaultSearchPath)
 
 else:
     print("No search search passed falling back to default path: "+ defaultSearchPath)
-    searchdir = defaultSearchPath
+    searchdir = os.path.abspath(defaultSearchPath)
     
     
 print("=============================================================")
