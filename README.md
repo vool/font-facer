@@ -13,7 +13,7 @@ Assuming the `python` executable is on your system path, just run the following:
 
 	python font-facer.py [ /path/to/your/font-face/directory ]
 	
-This will create a file `font-facer.html` containing all the font-faces in the target directory,  in which text content can be be tested.
+This will create a file `font-facer.html` containing all the font-faces in the target directory in which text content can be tested.
 
 Demo
 ====
